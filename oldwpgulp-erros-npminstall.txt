@@ -1,0 +1,1163 @@
+Microsoft Windows [Version 10.0.17134.523]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>npm install
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated gulp-run-sequence@0.3.2: Renamed to run-sequence as it's not really a gulp plugin.
+npm WARN deprecated gulp-uncss@1.0.0: Use UnCSS through gulp-postcss instead.
+npm WARN deprecated gulp-util@2.2.20: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated crypto@1.0.1: This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, you should switch to the one that's built-in.
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated minimatch@1.0.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated browserslist@0.4.0: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated hoek@2.16.3: This version is no longer maintained. Please upgrade to the latest version.
+npm WARN deprecated boom@2.10.1: This version is no longer maintained. Please upgrade to the latest version.
+npm WARN deprecated cryptiles@2.0.5: This version is no longer maintained. Please upgrade to the latest version.
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated tough-cookie@2.2.2: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+npm WARN deprecated find-file@0.1.4: Use the globby package instead
+
+> node-sass@3.13.1 install I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v3.13.1/win32-x64-64_binding.node
+Cannot download "https://github.com/sass/node-sass/releases/download/v3.13.1/win32-x64-64_binding.node":
+
+HTTP error 404 Not Found
+
+Hint: If github.com is not accessible in your location
+      try setting a proxy via HTTP_PROXY, e.g.
+
+      export HTTP_PROXY=http://example.com:1234
+
+or configure npm proxy via
+
+      npm config set proxy http://example.com:8080
+
+> phantomjs@1.9.20 install I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\phantomjs
+> node install.js
+
+PhantomJS not found on PATH
+Downloading https://github.com/Medium/phantomjs/releases/download/v1.9.19/phantomjs-1.9.8-windows.zip
+Saving to C:\Users\benna\AppData\Local\Temp\phantomjs\phantomjs-1.9.8-windows.zip
+Receiving...
+  [=======================================-] 97%
+Received 7292K total.
+Extracting zip contents
+Removing I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\phantomjs\lib\phantom
+Copying extracted folder C:\Users\benna\AppData\Local\Temp\phantomjs\phantomjs-1.9.8-windows.zip-extract-1548760892649\phantomjs-1.9.8-windows -> I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\phantomjs\lib\phantom
+Writing location.js file
+Done. Phantomjs binary available at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\phantomjs\lib\phantom\phantomjs.exe
+
+> gifsicle@0.1.7 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\gifsicle
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> jpegtran-bin@0.2.8 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\jpegtran-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> optipng-bin@0.3.11 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> pngquant-bin@0.3.5 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> node-sass@3.13.1 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-sass
+> node scripts/build.js
+
+Building: C:\Program Files\nodejs\node.exe I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-gyp\bin\node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+gyp info it worked if it ends with ok
+gyp verb cli [ 'C:\\Program Files\\nodejs\\node.exe',
+gyp verb cli   'I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\node-gyp\\bin\\node-gyp.js',
+gyp verb cli   'rebuild',
+gyp verb cli   '--verbose',
+gyp verb cli   '--libsass_ext=',
+gyp verb cli   '--libsass_cflags=',
+gyp verb cli   '--libsass_ldflags=',
+gyp verb cli   '--libsass_library=' ]
+gyp info using node-gyp@3.8.0
+gyp info using node@10.14.2 | win32 | x64
+gyp verb command rebuild []
+gyp verb command clean []
+gyp verb clean removing "build" directory
+gyp verb command configure []
+gyp verb check python checking for Python executable "python2" in the PATH
+gyp verb `which` failed Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed  python2 { Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed   stack:
+gyp verb `which` failed    'Error: not found: python2\n    at getNotFoundError (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:13:12)\n    at F (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:68:19)\n    at E (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:80:29)\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:89:16\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\index.js:42:5\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\windows.js:36:5\n    at FSReqWrap.oncomplete (fs.js:154:21)',
+gyp verb `which` failed   code: 'ENOENT' }
+gyp verb check python checking for Python executable "python" in the PATH
+gyp verb `which` failed Error: not found: python
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed  python { Error: not found: python
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed   stack:
+gyp verb `which` failed    'Error: not found: python\n    at getNotFoundError (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:13:12)\n    at F (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:68:19)\n    at E (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:80:29)\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:89:16\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\index.js:42:5\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\windows.js:36:5\n    at FSReqWrap.oncomplete (fs.js:154:21)',
+gyp verb `which` failed   code: 'ENOENT' }
+gyp verb could not find "python". checking python launcher
+gyp verb could not find "python". guessing location
+gyp verb ensuring that file exists: C:\Python27\python.exe
+gyp ERR! configure error
+gyp ERR! stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+gyp ERR! stack     at PythonFinder.failNoPython (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-gyp\lib\configure.js:484:19)
+gyp ERR! stack     at PythonFinder.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-gyp\lib\configure.js:509:16)
+gyp ERR! stack     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\graceful-fs\polyfills.js:282:31
+gyp ERR! stack     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp ERR! System Windows_NT 10.0.17134
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+gyp ERR! cwd I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-sass
+gyp ERR! node -v v10.14.2
+gyp ERR! node-gyp -v v3.8.0
+gyp ERR! not ok
+Build failed with error code: 1
+npm WARN neat@1.0.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 (node_modules\gifsicle):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 (node_modules\jpegtran-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 (node_modules\optipng-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 (node_modules\pngquant-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! node-sass@3.13.1 postinstall: `node scripts/build.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the node-sass@3.13.1 postinstall script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\benna\AppData\Roaming\npm-cache\_logs\2019-01-29T11_21_44_024Z-debug.log
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>gulp
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'imagemin-gifsicle'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\index.js:170:27)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>npm install --save-dev imagemin-gifsicle
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated find-file@0.1.4: Use the globby package instead
+
+> gifsicle@0.1.7 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\gifsicle
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> jpegtran-bin@0.2.8 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\jpegtran-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\jpegtran-bin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\jpegtran-bin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\jpegtran-bin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\jpegtran-bin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\jpegtran-bin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\jpegtran-bin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> optipng-bin@0.3.11 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> pngquant-bin@0.3.5 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> gifsicle@4.0.1 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\gifsicle
+> node lib/install.js
+
+  √ gifsicle pre-build test passed successfully
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN neat@1.0.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 (node_modules\imagemin\node_modules\gifsicle):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 (node_modules\jpegtran-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 (node_modules\optipng-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 (node_modules\pngquant-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
++ imagemin-gifsicle@6.0.1
+added 153 packages from 46 contributors and audited 8306 packages in 49.888s
+found 53 vulnerabilities (8 low, 25 moderate, 12 high, 8 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>gulp
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'imagemin-jpegtran'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\index.js:171:27)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>npm install --save-dev imagemin-jpegtran
+
+> gifsicle@0.1.7 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\gifsicle
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> jpegtran-bin@0.2.8 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\jpegtran-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> optipng-bin@0.3.11 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> pngquant-bin@0.3.5 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> jpegtran-bin@4.0.0 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\jpegtran-bin
+> node lib/install.js
+
+  √ jpegtran pre-build test passed successfully
+npm WARN neat@1.0.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 (node_modules\imagemin\node_modules\gifsicle):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 (node_modules\imagemin\node_modules\jpegtran-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 (node_modules\optipng-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 (node_modules\pngquant-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
++ imagemin-jpegtran@6.0.0
+added 10 packages from 7 contributors and audited 9033 packages in 25.396s
+found 53 vulnerabilities (8 low, 25 moderate, 12 high, 8 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>gulp
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'optipng-bin'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\index.js:6:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>npm install --save-dev optipng-bin
+
+> optipng-bin@0.3.11 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\optipng-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> gifsicle@0.1.7 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\gifsicle
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> jpegtran-bin@0.2.8 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\jpegtran-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> pngquant-bin@0.3.5 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> optipng-bin@5.1.0 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\optipng-bin
+> node lib/install.js
+
+  √ optipng pre-build test passed successfully
+npm WARN rollback Rolling back readable-stream@2.3.6 failed (this is probably harmless): EPERM: operation not permitted, rmdir 'I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\fsevents\node_modules'
+npm WARN neat@1.0.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 (node_modules\imagemin-optipng\node_modules\optipng-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 (node_modules\imagemin\node_modules\gifsicle):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 (node_modules\imagemin\node_modules\jpegtran-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 (node_modules\pngquant-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
++ optipng-bin@5.1.0
+added 2 packages from 2 contributors and audited 9721 packages in 22.661s
+found 53 vulnerabilities (8 low, 25 moderate, 12 high, 8 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>gulp
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'pngquant-bin'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\index.js:5:16)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>npm install --save-dev pngquant-bin
+
+> optipng-bin@0.3.11 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\optipng-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> pngquant-bin@0.3.5 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\pngquant-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> gifsicle@0.1.7 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\gifsicle
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> jpegtran-bin@0.2.8 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\jpegtran-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> pngquant-bin@5.0.1 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\pngquant-bin
+> node lib/install.js
+
+  √ pngquant pre-build test passed successfully
+npm WARN neat@1.0.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 (node_modules\imagemin-optipng\node_modules\optipng-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 (node_modules\imagemin-pngquant\node_modules\pngquant-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 (node_modules\imagemin\node_modules\gifsicle):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 (node_modules\imagemin\node_modules\jpegtran-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
++ pngquant-bin@5.0.1
+added 3 packages from 3 contributors and audited 10425 packages in 28.303s
+found 53 vulnerabilities (8 low, 25 moderate, 12 high, 8 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>gulp
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'gulp-sass'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\gulpfile.js:56:18)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>npm install --save-dev gulp-sass
+
+> node-sass@3.13.1 install I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v3.13.1/win32-x64-64_binding.node
+Cannot download "https://github.com/sass/node-sass/releases/download/v3.13.1/win32-x64-64_binding.node":
+
+HTTP error 404 Not Found
+
+Hint: If github.com is not accessible in your location
+      try setting a proxy via HTTP_PROXY, e.g.
+
+      export HTTP_PROXY=http://example.com:1234
+
+or configure npm proxy via
+
+      npm config set proxy http://example.com:8080
+
+> optipng-bin@0.3.11 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\optipng-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> pngquant-bin@0.3.5 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\pngquant-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> gifsicle@0.1.7 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\gifsicle
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> jpegtran-bin@0.2.8 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\jpegtran-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> node-sass@3.13.1 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-sass
+> node scripts/build.js
+
+Building: C:\Program Files\nodejs\node.exe I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-gyp\bin\node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+gyp info it worked if it ends with ok
+gyp verb cli [ 'C:\\Program Files\\nodejs\\node.exe',
+gyp verb cli   'I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\node-gyp\\bin\\node-gyp.js',
+gyp verb cli   'rebuild',
+gyp verb cli   '--verbose',
+gyp verb cli   '--libsass_ext=',
+gyp verb cli   '--libsass_cflags=',
+gyp verb cli   '--libsass_ldflags=',
+gyp verb cli   '--libsass_library=' ]
+gyp info using node-gyp@3.8.0
+gyp info using node@10.14.2 | win32 | x64
+gyp verb command rebuild []
+gyp verb command clean []
+gyp verb clean removing "build" directory
+gyp verb command configure []
+gyp verb check python checking for Python executable "python2" in the PATH
+gyp verb `which` failed Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed  python2 { Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed   stack:
+gyp verb `which` failed    'Error: not found: python2\n    at getNotFoundError (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:13:12)\n    at F (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:68:19)\n    at E (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:80:29)\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:89:16\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\index.js:42:5\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\windows.js:36:5\n    at FSReqWrap.oncomplete (fs.js:154:21)',
+gyp verb `which` failed   code: 'ENOENT' }
+gyp verb check python checking for Python executable "python" in the PATH
+gyp verb `which` failed Error: not found: python
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed  python { Error: not found: python
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed   stack:
+gyp verb `which` failed    'Error: not found: python\n    at getNotFoundError (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:13:12)\n    at F (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:68:19)\n    at E (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:80:29)\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:89:16\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\index.js:42:5\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\windows.js:36:5\n    at FSReqWrap.oncomplete (fs.js:154:21)',
+gyp verb `which` failed   code: 'ENOENT' }
+gyp verb could not find "python". checking python launcher
+gyp verb could not find "python". guessing location
+gyp verb ensuring that file exists: C:\Python27\python.exe
+gyp ERR! configure error
+gyp ERR! stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+gyp ERR! stack     at PythonFinder.failNoPython (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-gyp\lib\configure.js:484:19)
+gyp ERR! stack     at PythonFinder.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-gyp\lib\configure.js:509:16)
+gyp ERR! stack     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\graceful-fs\polyfills.js:282:31
+gyp ERR! stack     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp ERR! System Windows_NT 10.0.17134
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+gyp ERR! cwd I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-sass
+gyp ERR! node -v v10.14.2
+gyp ERR! node-gyp -v v3.8.0
+gyp ERR! not ok
+Build failed with error code: 1
+npm WARN neat@1.0.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 (node_modules\imagemin-optipng\node_modules\optipng-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 (node_modules\imagemin-pngquant\node_modules\pngquant-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 (node_modules\imagemin\node_modules\gifsicle):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 (node_modules\imagemin\node_modules\jpegtran-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! node-sass@3.13.1 postinstall: `node scripts/build.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the node-sass@3.13.1 postinstall script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\benna\AppData\Roaming\npm-cache\_logs\2019-01-29T11_33_06_452Z-debug.log
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>gulp
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'gulp-sass'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\gulpfile.js:56:18)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>npm install --save-dev gulp-sass
+
+> node-sass@3.13.1 install I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v3.13.1/win32-x64-64_binding.node
+Cannot download "https://github.com/sass/node-sass/releases/download/v3.13.1/win32-x64-64_binding.node":
+
+HTTP error 404 Not Found
+
+Hint: If github.com is not accessible in your location
+      try setting a proxy via HTTP_PROXY, e.g.
+
+      export HTTP_PROXY=http://example.com:1234
+
+or configure npm proxy via
+
+      npm config set proxy http://example.com:8080
+
+> optipng-bin@0.3.11 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\optipng-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-optipng\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> pngquant-bin@0.3.5 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\pngquant-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin-pngquant\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> gifsicle@0.1.7 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\gifsicle
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> jpegtran-bin@0.2.8 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\jpegtran-bin
+> node index.js
+
+path.js:39
+    throw new ERR_INVALID_ARG_TYPE('path', 'string', path);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type object
+    at assertPath (path.js:39:11)
+    at Object.basename (path.js:749:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:35:43
+    at each (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\each-async\each-async.js:63:4)
+    at module.exports (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\download\index.js:33:5)
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:108:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-wrapper\index.js:141:24
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\bin-check\index.js:30:20
+    at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\imagemin\node_modules\executable\index.js:39:20
+    at FSReqWrap.oncomplete (fs.js:154:21)
+
+> node-sass@3.13.1 postinstall I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-sass
+> node scripts/build.js
+
+Building: C:\Program Files\nodejs\node.exe I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-gyp\bin\node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+gyp info it worked if it ends with ok
+gyp verb cli [ 'C:\\Program Files\\nodejs\\node.exe',
+gyp verb cli   'I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\node-gyp\\bin\\node-gyp.js',
+gyp verb cli   'rebuild',
+gyp verb cli   '--verbose',
+gyp verb cli   '--libsass_ext=',
+gyp verb cli   '--libsass_cflags=',
+gyp verb cli   '--libsass_ldflags=',
+gyp verb cli   '--libsass_library=' ]
+gyp info using node-gyp@3.8.0
+gyp info using node@10.14.2 | win32 | x64
+gyp verb command rebuild []
+gyp verb command clean []
+gyp verb clean removing "build" directory
+gyp verb command configure []
+gyp verb check python checking for Python executable "python2" in the PATH
+gyp verb `which` failed Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed  python2 { Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed   stack:
+gyp verb `which` failed    'Error: not found: python2\n    at getNotFoundError (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:13:12)\n    at F (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:68:19)\n    at E (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:80:29)\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:89:16\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\index.js:42:5\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\windows.js:36:5\n    at FSReqWrap.oncomplete (fs.js:154:21)',
+gyp verb `which` failed   code: 'ENOENT' }
+gyp verb check python checking for Python executable "python" in the PATH
+gyp verb `which` failed Error: not found: python
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed  python { Error: not found: python
+gyp verb `which` failed     at getNotFoundError (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:13:12)
+gyp verb `which` failed     at F (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:68:19)
+gyp verb `which` failed     at E (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:80:29)
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\which\which.js:89:16
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\index.js:42:5
+gyp verb `which` failed     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\isexe\windows.js:36:5
+gyp verb `which` failed     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp verb `which` failed   stack:
+gyp verb `which` failed    'Error: not found: python\n    at getNotFoundError (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:13:12)\n    at F (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:68:19)\n    at E (I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:80:29)\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\which\\which.js:89:16\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\index.js:42:5\n    at I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\isexe\\windows.js:36:5\n    at FSReqWrap.oncomplete (fs.js:154:21)',
+gyp verb `which` failed   code: 'ENOENT' }
+gyp verb could not find "python". checking python launcher
+gyp verb could not find "python". guessing location
+gyp verb ensuring that file exists: C:\Python27\python.exe
+gyp ERR! configure error
+gyp ERR! stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+gyp ERR! stack     at PythonFinder.failNoPython (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-gyp\lib\configure.js:484:19)
+gyp ERR! stack     at PythonFinder.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-gyp\lib\configure.js:509:16)
+gyp ERR! stack     at I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\graceful-fs\polyfills.js:282:31
+gyp ERR! stack     at FSReqWrap.oncomplete (fs.js:154:21)
+gyp ERR! System Windows_NT 10.0.17134
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "I:\\wamp64\\www\\oldwpgulp\\wp-content\\themes\\oldwpgulp\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+gyp ERR! cwd I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\node_modules\node-sass
+gyp ERR! node -v v10.14.2
+gyp ERR! node-gyp -v v3.8.0
+gyp ERR! not ok
+Build failed with error code: 1
+npm WARN neat@1.0.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 (node_modules\imagemin-optipng\node_modules\optipng-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: optipng-bin@0.3.11 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 (node_modules\imagemin-pngquant\node_modules\pngquant-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: pngquant-bin@0.3.5 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 (node_modules\imagemin\node_modules\gifsicle):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: gifsicle@0.1.7 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 (node_modules\imagemin\node_modules\jpegtran-bin):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: jpegtran-bin@0.2.8 postinstall: `node index.js`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! node-sass@3.13.1 postinstall: `node scripts/build.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the node-sass@3.13.1 postinstall script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\benna\AppData\Roaming\npm-cache\_logs\2019-01-29T11_33_50_365Z-debug.log
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>gulp
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'gulp-sass'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp\gulpfile.js:56:18)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+
+I:\wamp64\www\oldwpgulp\wp-content\themes\oldwpgulp>
